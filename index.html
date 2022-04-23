@@ -1,75 +1,71 @@
+
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Home</title>
-	<link href="styles.css" rel="stylesheet" type="text/css">
-	<!-- RESPONSIVE CODE -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--You need this link for the hamburger menu-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-
-	<meta name="description" content="Duke's Moonshine Distillery">
-	<meta name="keywords" content="moonshine, hazzard, duke boys">
-	<meta name="author" content="Charlotte Schepers">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- import stylesheet -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <!-- NAVIGATION BEGINS -->
+    <nav class="navbar">
+        <div id="home" class="logo-container">
+            <img class="logo-image" src="img/logo.png" alt="logo">
+        </div>
+        <ul id="nav-list" class="nav-menu">
+            <li class="menu-item">
+                <a href="#home">Home</a>
+            </li>
+            <li class="menu-item">
+                <!-- <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a> -->
+                <a href="#about">Our Story</a>
+            </li>
+            <li class="menu-item">
+                <a href="#store">Store</a>
+            </li>
+            <li class="menu-item">
+                <a href="#location">Location</a>
+            </li>
+            <li class="menu-item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div id="nav-toggle" class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <!-- import javascript -->
+    <script src="js/navbar.js"></script>
+<!-- NAVIGATION ENDS -->
+<!-- CONTENT OF THE PAGE BEGINS -->
 
-
-<!-- Navigation with hamburger menu when mobile -->
-	<nav class="topnav" id="myTopnav">
-	     <a href="index.html" class="active">Home</a>
-	     <a href="about.html">Our Story</a>
-	     <a href="store.html">Store</a>
-	     <a href="location.html">Location</a>
-       <a href="contact.html">Contact</a>
-
-
-
-		<!-- Dont change the link below -->
-        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-	</nav>
-
-
-
-
-<a href="index.html">
-	<img id="logo" src="images/logo1.png" alt="Duke's Moonshine Distillery">
-</a>
-
-<div class="orange-bar">
+<div class="index-hero">
 <h2>Welcome!</h2>
- </div>
+</div>
 
+<div class="off-white centered">
+  <button class="button button2">Book a Tour</button>
+  <button class="button button2">Book a Tasting Experience</button>
+  <button class="button button2">View Our Photo Gallery</button>
+</div>
 
+<h3>We're Happy You Stopped By!</h3>
+<p>We'd thought we'd tell ya a little bit about us. <br>
+  Duke's Moonshine Distillery was first started in a barn, but <br> now is a state-of-the-art
+  distillery on a campus located in Hazzard County, Kentucky. </p>
 
-<container class="sign-buttons">
-<a href="contact.html">
-<img class="taste" src="images/taste.png">
-</a>
-
-<a href="contact.html">
-<img class="tour" src="images/tour.png">
-</a>
-
-<a href="contact.html">
-<img class="virt" src="images/virt.png">
-</a>
-</container>
-
-
-
-
-
-
-
+<!-- <section class="off-white ">
+  <h3>We're Happy You Stopped By!</h3>
+  <p>We'd thought we'd tell ya a little bit about us. <br>
+    Duke's Moonshine Distillery was first started in a barn, but <br> now is a state-of-the-art
+    distillery on a campus located in Hazzard County, Kentucky. </p>
+</section> -->
 
 </body>
+</html>
