@@ -41,6 +41,8 @@ p {
     line-height: 1.5;
 }
 
+
+
 /* INTRO PAGE */
 .intro-logo {
   width: 300px;
@@ -127,6 +129,8 @@ a.active {
     margin: auto;
     display: block;
     padding-top: 20px;
+    padding-bottom: 20px;
+    
 
 }
 
@@ -142,20 +146,47 @@ a.active {
     margin-bottom:0px;
 }
 
-.header-img h2 {
+.orange-bar h2 {
   color: white;
   font-family: 'Barqish';
   text-align: center;
   /* padding: 20px; */
-
   padding-bottom: 20px;
   margin-top: 0;
-
   font-size: 4em;
   justify-content: center;
-
   text-shadow: 2px 2px 4px #773819;
 }
+.orange-bar {
+  background: rgb(239,121,65);
+  background: radial-gradient(circle, rgba(239,121,65,1) 0%, rgba(119,56,25,1) 100%);
+
+  height: 10vh;
+
+}
+
+  .taste {
+    justify-content: center;
+    width: 175px;
+
+  }
+
+  .tour {
+    justify-content: center;
+    width: 175px;
+  }
+
+  .virt {
+   justify-content: center;
+   width: 175px;
+  }
+
+  .container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
 
 .index-hero {
@@ -244,43 +275,66 @@ DESKTOP STYLES
      display: none;
  }
 
- .header-img {
-     height: 30vh;
 
- }
     #logo {
     /* ------ Max width to keep logo image from being larger than intended ------ */
-    width: 350px;
+    /* width: 350px;
     height: auto;
-    margin: 0 0 0 25px;
-    display: inline-block;
+    margin: 0 0 0 250px;
+    display: inline-block; */
+    max-width: 50%;
+    margin: auto;
+    display: block;
 }
 
 .header-img {
-    height: 30vh;
+    height: 20vh;
+    margin-top: 30px;
 
 }
 
-.header-img h2 {
+.orange-bar h2 {
   color: white;
   font-family: 'Barqish';
-  text-align: right;
+  text-align: center;
   /* padding: 20px; */
-  padding-right: 50px;
-  padding-bottom: 70px;
+  padding: 20px;
+  margin: auto;
+  /* font-size: 15em; */
+  display: flex;
+  justify-content: center;
   font-size: 6em;
-  display: inline-block;
-  float: right;
   text-shadow: 2px 2px 4px #773819;
 }
 
-  .color-bar {
-    background: rgb(231,227,224);
-    background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(119,56,25,1) 100%);
-    height: 150px;
+  .orange-bar {
+    background: rgb(239,121,65);
+    background: radial-gradient(circle, rgba(239,121,65,1) 0%, rgba(119,56,25,1) 100%);
+    height: 20vh;
   }
 
   .index-hero {
       height: 50vh;
+      margin-top: 0px;
+      padding-top: 0px;
 
   }
+
+
+.taste {
+  float: left;
+  width: 250px;
+  padding-left: 25px;
+}
+
+.tour {
+  margin: 0 350px 0 650px;
+  display: inline-block;
+  width: 250px;
+}
+
+.virt {
+  float: right;
+  padding-right: 25px;
+  width: 250px;
+}
