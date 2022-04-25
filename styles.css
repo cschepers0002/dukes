@@ -313,6 +313,14 @@ hr {
     align-items: center;
   }
 
+  .blue-cover {
+    background: rgb(231,227,224);
+background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 98%, rgba(60,148,205,1) 100%);
+padding: 25px;
+  }
+
+
+
   /* --------
 DESKTOP STYLES
 -------- */
@@ -506,4 +514,8 @@ text-align: left;
   content: "";
   clear: both;
   display: table;
+}
+
+.blue-cover {
+  padding: 50px;
 }
