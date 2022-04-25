@@ -319,6 +319,58 @@ background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 9
 padding: 25px;
   }
 
+  .wrapper2 {
+  margin: 15px auto;
+  width:90%;
+  padding: 20px;
+}
+
+/* START MOBILE FORM STYLES */
+form{
+/* width:90%; */
+}
+
+form p, form{
+margin-bottom:5px;
+}
+
+label{
+display:block;
+color: white;
+}
+
+#newsletter input{
+display:inline;
+width:auto;
+}
+
+input{
+/* FOR MOBILE WIDTH:100% */
+width:100%;
+padding:1.7%;
+margin:1.5% 0;
+font-size: 1em;
+border-radius: 4px;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+
+.checkbox{
+    width:30px;
+}
+
+textarea{
+min-height:100px;
+width: 100%;
+padding: 2%;
+margin: 1.5% 0;
+font-size: 1em;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
 
 
   /* --------
@@ -519,3 +571,26 @@ text-align: left;
 .blue-cover {
   padding: 50px;
 }
+
+/* CONTACT ---------- */
+
+  .wrapper2 {
+      /* margin: 15px auto; */
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .wrapper2 form, .wrapper2 #map{
+      width:48%;
+  }
+
+  form{
+      margin-right: 3%;
+
+  }
+  input{
+      width:80%;
+  }
+  button{
+      margin-top: 2%;
+      margin-bottom: 2%;
+  }
