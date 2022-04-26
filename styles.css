@@ -624,6 +624,7 @@ background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 9
   background-color: white;
   display: inline-flex;
   padding-bottom: 0;
+  min-height: auto;
 
 
 }
