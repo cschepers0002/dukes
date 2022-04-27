@@ -292,22 +292,27 @@ hr {
   font-size: 2em;
 }
 
-.brown-shadow {
-  color: #ef7941;
+.product-bkgd h2 {
+  color: #ef7941 !important;
   text-align: center;
   font-family: 'Barqish';
   font-size: 4em;
   text-shadow: 2px 2px 4px #773819;
 }
 
+
 .products {
-  background-color: white;
+
 
     min-height:400px;
     padding-top: 10px;
     padding-bottom:10px;
 }
 
+.product-bkgd {
+  background-color: white;
+  padding-top: 20px;
+}
 
 .products-img {
   width: 100%;
@@ -325,7 +330,7 @@ hr {
     margin: auto;
   }
 
-  .brown-text {
+  .product-bkgd p{
     color: #773819;
     font-size: 3em;
     margin-top: 0px;
@@ -435,9 +440,14 @@ footer:hover {
   color: #773819;
 }
 
+.footer p {
+  color: #773819;
+  text-align: center;
+}
+
 .footer-grid {
   display: grid;
-  grid-template-columns: 150px 1fr 150px;
+  grid-template-columns: 150px 1fr 300px;
   grid-gap: 10px;
   background-color: #e7e3e0;
   color: #444;
@@ -458,6 +468,10 @@ i{
   text-align:right;
 }
 
+.about {
+  margin: auto;
+  padding: 25px;
+}
 
 
 
@@ -596,9 +610,7 @@ background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 9
 
 
   p {
-    padding-right: 70px;
-    padding-left: 70px;
-    text-align: left;
+  text-align: left;
   }
 
 
@@ -621,7 +633,6 @@ background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 9
 }
 
 .products {
-  background-color: white;
   display: inline-flex;
   padding-bottom: 0;
   min-height: auto;
@@ -715,4 +726,9 @@ text-align: left;
   footer{
     min-height: 150px;
   }
-  ]
+
+
+  .about {
+    padding-right: 120px;
+    padding-left: 120px
+  }
