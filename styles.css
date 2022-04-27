@@ -337,10 +337,9 @@ hr {
   }
 
   ul {
-    list-style-image: url('images/jar bullet.png');
     color: white;
     text-align: center;
-    list-style-position: inside;
+    list-style-type: none;
   }
 
   li {
@@ -731,4 +730,15 @@ text-align: left;
   .about {
     padding-right: 120px;
     padding-left: 120px
+  }
+
+  .apple {
+    height: 25px;
+    width: 15px;
+    
+  }
+
+  .white-light {
+    height: 25px;
+    width: 15px;
   }
