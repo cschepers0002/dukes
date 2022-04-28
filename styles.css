@@ -68,21 +68,29 @@ p {
 
 /* INTRO PAGE */
 .intro-logo {
-  width: 300px;
-  height: auto;
-  margin: auto;
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
 }
-.centered {
+.centered-intro {
   text-align: center;
   padding-top: 20px;
 }
 
+.centered-intro p {
+  text-align: center;
+
+}
+
+.centered-intro form input {
+  margin: auto !important;
+}
+
 input[type=submit] {
  background-color: #3c94cd;
- padding: 15px 27px;
+
  -moz-border-radius: 5px;
  -webkit-border-radius: 5px;
  border-radius: 2px;
@@ -95,7 +103,6 @@ input[type=submit] {
 }
 button[type=submit] {
  background-color: #3c94cd;
- padding: 15px 27px;
  -moz-border-radius: 5px;
  -webkit-border-radius: 5px;
  border-radius: 2px;
@@ -472,6 +479,37 @@ i{
   padding: 25px;
 }
 
+.small-col {
+  display: grid;
+  grid-template-columns: 20px 180px;
+  grid-gap: 15px;
+  margin: 5px;
+
+}
+ .small-grid{
+    max-width:200px;
+/*  I added the grid template col widths to get
+ this max-width number so the grid is
+ centered. If the columns need to be wider,
+ then you need to change the max-width also  */
+    margin:20px auto;
+  }
+
+.small-grid img{
+  display:block;
+  height:40px;
+}
+.small-grid p{
+  height:30px;
+}
+
+@media only screen and (min-width:400px){
+  .small-grid{
+    display:flex;
+    flex-direction:row;
+  }
+}
+
 
 
   /* --------
@@ -735,7 +773,7 @@ text-align: left;
   .apple {
     height: 25px;
     width: 15px;
-    
+
   }
 
   .white-light {
