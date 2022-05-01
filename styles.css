@@ -267,7 +267,7 @@ a.active {
 .off-white {
   background: rgb(231,227,224);
 background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 98%, rgba(60,148,205,1) 100%);
-  height: 265px;
+  height: 325px;
   padding: 5px;
 
 }
@@ -369,6 +369,10 @@ hr {
     background: rgb(231,227,224);
 background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 98%, rgba(60,148,205,1) 100%);
 padding: 25px;
+  }
+
+  .blue-cover p {
+    text-align: center;
   }
 
   .wrapper2 {
@@ -648,7 +652,7 @@ DESKTOP STYLES
   .off-white {
     background: rgb(231,227,224);
 background: radial-gradient(circle, rgba(231,227,224,1) 0%, rgba(94,164,209,1) 98%, rgba(60,148,205,1) 100%);
-    height: 20vh;
+    height: 31vh;
   }
 
   #about {
