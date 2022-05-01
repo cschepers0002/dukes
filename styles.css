@@ -502,7 +502,7 @@ i{
 
 }
  .small-grid{
-    max-width:200px;
+    max-width:500px;
 /*  I added the grid template col widths to get
  this max-width number so the grid is
  centered. If the columns need to be wider,
