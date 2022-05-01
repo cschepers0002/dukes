@@ -20,6 +20,16 @@ background: radial-gradient(circle, rgba(239,121,65,1) 0%, rgba(119,56,25,1) 100
   padding:0;
 }
 
+.red-banner {
+  background-color: red;
+
+}
+.red-banner a {
+  color: white;
+  text-align: center;
+
+}
+
 * {
   box-sizing: border-box;
 }
